@@ -3,7 +3,7 @@ This is going to be a repository of things I do a lot.
 It is based on rake global tasks, so this .rake directory should be in your user directory:
 
          cd ~
-         ln -sf rake-global-tasks ~/.rake
+         ln -sf <path-to-new-dir>/rake-global-tasks ~/.rake
 
 I have started with a task to generate a new sinatra project (a really basic one). Just run:
 
