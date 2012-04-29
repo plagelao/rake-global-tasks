@@ -21,9 +21,9 @@ namespace :sinatra do
     puts "creating a sinatra app in #{project_name}"
     system "mkdir #{project_name}"
     puts 'copying sinatra files from sinatra-min'
-    system 'mv ~/.rake/sinatra-min/.git ~/.rake'
+    system 'mv ~/.rake/sinatra-min/.git ~/.rake/tmp'
     system "cp -R ~/.rake/sinatra-min/ #{project_name}"
-    system 'mv ~/.rake/.git ~/.rake/sinatra-min'
+    system 'mv ~/.rake/tmp/.git ~/.rake/sinatra-min'
   end
 
 end
